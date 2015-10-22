@@ -48,6 +48,13 @@ public class TicketMachine
     }
 
     /**
+     * Devuelve el Total
+     */
+    public int getTotal()
+    {
+        return total;
+    }
+    /**
      * Receive an amount of money from a customer.
      */
     public void insertMoney(int amount)
