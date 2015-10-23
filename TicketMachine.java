@@ -19,9 +19,7 @@ public class TicketMachine
     private int total;
 
     /**
-     * Create a machine that issues tickets of the given price.
-     * Note that the price must be greater than zero, and there
-     * are no checks to ensure this.
+     * Crea una TicketMAchine con el precio inicial fijado
      */
     public TicketMachine()
     {
@@ -29,7 +27,17 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
-
+    
+    /**
+     * Crea una TicketMachine en la cual le pasamos el precio como parametro
+     */
+    public TicketMachine(int cost)
+    {
+        price = cost;
+        balance = 0;
+        total = 0;
+    }
+    
     /**
      * Return the price of a ticket.
      */
