@@ -79,8 +79,8 @@ public class TicketMachine
         System.out.println("Please, insert the correct money"); 
     }
     
-    /*
-     * 
+    /**
+     *  Imprime por pantalla el mensaje: "El precio del ticket es suPrecio cents"
      */
     public void showPrice()
     {
