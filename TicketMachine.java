@@ -70,7 +70,15 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
-
+    
+    /**
+     * Imprime por pantalla el mensaje: "Por favor introduzca el dinero correcto"
+     */
+    public void prompt()
+    {
+        System.out.println("Please, insert the correct money"); 
+    }
+    
     /**
      * Print a ticket.
      * Update the total collected and
