@@ -54,6 +54,15 @@ public class TicketMachine
     {
         return total;
     }
+    
+    /**
+     * Metodo para fijar el precio
+     */
+    public void setPrice(int cantidad)
+    {
+        price = cantidad;
+    }
+    
     /**
      * Receive an amount of money from a customer.
      */
